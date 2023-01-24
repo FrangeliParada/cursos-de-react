@@ -19,12 +19,12 @@ const Formulario = () => {
         console.log(datos.nombre + ' ' + datos.apellido)
     }
 
-    return ( 
+    return (
         <Fragment>
             <h1>Formulario</h1>
             <form className='row' onSubmit={enviarDatos}>
                 <div className='col-md-3'>
-                    <input 
+                    <input
                     placeholder='Ingrese Apellido'
                     className='form-control'
                     type='text'
@@ -49,5 +49,4 @@ const Formulario = () => {
         </Fragment>
      );
 }
- 
 export default Formulario;

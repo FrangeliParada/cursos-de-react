@@ -24,7 +24,7 @@ const FormHook = () => {
                     }
                 />
                 <span className='text-danger text-small d-block mb-2'>
-                    {/* {errors?.titulo?.message} */}
+                    {errors?.titulo?.message}
                 </span>
                 <button className='btn btn-primary'>Enviar</button>
 

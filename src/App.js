@@ -4,20 +4,19 @@ import React from 'react';
 // import Jsx from './componentes/Jsx';
 // import Lista from './componentes/lista';
 // import Formulario from './componentes/Formulario';
-import FormHook from './componentes/FormHook';
+// import FormHook from './componentes/FormHook';
+import FormCrud from './componentes/FormCrud'
 
 function App() {
   return (
     <div className='container mt-5'>
-      <h1>Hola Mundo React </h1>
 
       {/* <Contador /> */}
-
       {/* <Jsx /> */}
       {/* <Lista /> */}
       {/* <Formulario /> */}
-    {/* <FormHook /> */}
-    <FormHook />
+      {/* <FormHook /> */}
+      <FormCrud />
     </div>
   );
 }
